@@ -12,9 +12,8 @@ namespace PerguntaValores
             Console.WriteLine("Write the radius of a cylinder");
             string r = Console.ReadLine();
             double rr = double.Parse(r );
-            double Pi = 3.1415926;
-            Console.WriteLine(" V = " + (Pi)*((rr)*(rr))*(aa));
-            Console.WriteLine(" S = " + ( 2 * Pi * rr ) * ( rr + aa ));
+            Console.WriteLine(" V = " + (Math.PI)*((rr)*(rr))*(aa));
+            Console.WriteLine(" S = " + ( 2 * Math.PI * rr ) * ( rr + aa ));
         }
     }
 }

@@ -16,33 +16,13 @@ namespace GranpaPatternSwitch
             // Verificar se se trata de uma questão conhecida e determinar uma
             // resposta adequada
 
-            string question = option switch
+            string question = response switch
             {
-                1 => "How are you?",
-                2 => "What's your name?",
-                3 => "What's your mission?",
-                _ =>,
-            }
-
-            string question;
-            switch (option)
-            {
-                case 1:
-                    response = "I'm fine, thank you";
-                    break;
-
-                case 2:
-                    response = "Gran'pa";
-                    break;
-
-                case 3:
-                    response = "Destroy mankind!";
-                    break;
-
-                default :
-                    response = "You got me, I'm not THAT smart!";
-                    break;
-            }
+                "How are you?" => "I'm fine, thank you",
+                "What's your name?" => "Gran'pa",
+                "What's your mission?" => "Destroy mankind!",
+                _ => "You got me, I'm not THAT smart!"
+            };
 
             // Responder adequadamente
             Console.WriteLine(response);

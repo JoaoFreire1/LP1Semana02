@@ -60,6 +60,24 @@ namespace Specials
            char charMax = char.MaxValue;
            Console.WriteLine(charMax);
 
+           double x = double. PositiveInfinity;
+           Console.WriteLine(x);
+
+           double y = double. NegativeInfinity;
+           Console.WriteLine(y);
+
+           double N = double .NaN; 
+           Console.WriteLine(N);
+
+           float fx = float. PositiveInfinity;
+           Console.WriteLine(fx);
+
+           float fy = float. NegativeInfinity;
+           Console.WriteLine(fy);
+
+           float fN = float .NaN; 
+           Console.WriteLine(fN);
+
 
         }
     }

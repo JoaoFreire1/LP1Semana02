@@ -79,6 +79,17 @@ namespace Specials
            Console.WriteLine(fN);
 
 
+
+           int i = int.MaxValue;
+           Console.WriteLine(( int) ( i + 1)); 
+
+           float ffi = float.MaxValue;
+           Console.WriteLine(( float) ( ffi + 1));
+
+           double ddi = double.MaxValue;
+           Console.WriteLine(( double) ( ddi + 1));
+
+
         }
     }
 }

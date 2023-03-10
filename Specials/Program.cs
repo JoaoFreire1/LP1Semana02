@@ -90,6 +90,16 @@ namespace Specials
            Console.WriteLine(( double) ( ddi + 1));
 
 
+           float f1 , f2 ;
+           f1 = f2 = 10000.0f;
+           Console.WriteLine(f1 == f2 + 0.0001f);
+
+           double d1 , d2 ;
+           d1 = d2 = 10000.0d;
+           Console.WriteLine(d1 == d2 + 0.0001d);
+
+
+
         }
     }
 }

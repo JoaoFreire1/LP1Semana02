@@ -8,7 +8,9 @@ namespace VariousOperators
         {
             Console.WriteLine("Insere número inteiro-não negativo:");
             string ninput = Console.ReadLine();
-            
+            byte n = byte.Parse(ninput);
+            Console.ReadLine(n);
+
         }
     }
 }

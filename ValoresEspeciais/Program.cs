@@ -65,6 +65,13 @@ namespace ValoresEspeciais
             Console.WriteLine(decimalmax);
             decimal decimalmin = decimal.MinValue;
             Console.WriteLine(decimalmin);
+
+            double x1 = double.PositiveInfinity;
+            Console.WriteLine(x1);
+            double x2 = double.NegativeInfinity;
+            Console.WriteLine(x2);
+            float x3 = float.NaN;
+            Console.WriteLine(x3);
         }
     }
 }

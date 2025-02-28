@@ -12,6 +12,16 @@ namespace PerfectCountdown
             string step1 = Console.ReadLine();
             int step = int.Parse(step1);
             Console.WriteLine($"Step number: {step}");
+
+            if (start < 1)
+            {
+                Console.WriteLine("Out-of-range start or step. Try again.")
+            }
+
+            if (step < 1)
+            {
+                Console.WriteLine("Out-of-range start or step. Try again.")
+            }
         }
     }
 }

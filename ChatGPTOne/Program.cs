@@ -6,25 +6,24 @@ namespace ChatGPTOne
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Ask me Something!");
-            string question = Console.ReadLine();
-
-            while (true)
+            While (true)
             {
-                if (question == "What's your name")
-                    Console.WriteLine("Ambrosio");
-                    break;
+                Console.WriteLine("Please ask me a question!");
+                string question == Console.ReadLine();
 
                 if (question == "How are you")
                     Console.WriteLine("Terrible");
                     break;
-
-                if (question == "Do you like Shrek")
-                    Console.WriteLine("Yes of course");
+                if (question == "What are you doing")
+                    Console.WriteLine("Nothing");
                     break;
-
+                if (question == "Do you like cats")
+                    Console.WriteLine("Yes");
+                    break;
                 if (question == "Are you alive")
-                    Console.WriteLine("No I'm dead inside");
+                    Console.WriteLine("No");
+                    break;
+                if (question == "EXIT")
                     break;
             }
 

@@ -20,15 +20,27 @@ namespace PerfectCountdown
                     Console.WriteLine("Out-of-range start or step. Try again.");
                 }
 
-                if (step < 1)
+                else if (step < 1)
                 {
                     Console.WriteLine("Out-of-range start or step. Try again.");
                     continue;
                 }
 
-                if (step >= start)
+                else if (step >= start)
                 {
                     Console.WriteLine("Start number must be hgher than step. Try again.");
+                    continue;
+                }
+                
+                else if (start % step == 0)
+                {
+                    Console.WriteLine("YAY");
+                    continue;
+                }
+
+                else
+                {
+                    Console.WriteLine("Start not divisible by step. Try again.");
                     continue;
                 }
             }

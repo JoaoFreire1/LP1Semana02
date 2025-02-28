@@ -25,6 +25,12 @@ namespace PerfectCountdown
                     Console.WriteLine("Out-of-range start or step. Try again.");
                     continue;
                 }
+
+                if (step >= start)
+                {
+                    Console.WriteLine("Start number must be hgher than step. Try again.");
+                    continue;
+                }
             }
         }
     }

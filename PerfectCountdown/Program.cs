@@ -28,14 +28,18 @@ namespace PerfectCountdown
 
                 else if (step >= start)
                 {
-                    Console.WriteLine("Start number must be hgher than step. Try again.");
+                    Console.WriteLine("Start number must be higher than step. Try again.");
                     continue;
                 }
                 
                 else if (start % step == 0)
                 {
-                    Console.WriteLine("YAY");
-                    continue;
+                    while (start >= 0)
+                    {
+                        Console.WriteLine(start);
+                        start = start - step;
+                        continue;
+                    }
                 }
 
                 else
